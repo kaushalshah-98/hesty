@@ -17,7 +17,7 @@ export const Banner = () => {
                 dolor sit amet
               </span>
             </div>
-            <button className='my-8 max-w-fit rounded-md bg-redd py-2 px-4 text-lg text-neutral-300 sm:hidden'>
+            <button className='my-8 max-w-fit rounded-md bg-redd py-2 px-4 text-lg dark:text-neutral-300 text-white sm:hidden'>
               Schedule Visit
             </button>
             <div className='flex flex-col justify-end'>

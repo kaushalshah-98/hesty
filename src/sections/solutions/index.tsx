@@ -18,7 +18,7 @@ export default images;
 
 export const Solutions = () => {
   return (
-    <section className='my-20 lg:my-44'>
+    <section className='my-32 lg:my-44'>
       <div className='container mx-auto max-w-7xl px-10'>
         <div className='flex flex-col items-end justify-between space-x-4 sm:flex-row md:items-center'>
           <div className='flex max-w-lg flex-col space-y-4 pb-10 md:w-[60%]'>

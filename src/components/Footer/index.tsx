@@ -2,7 +2,7 @@ import { BellIcon } from '@heroicons/react/24/outline';
 
 export const Footer = () => {
     return (
-        <footer className='mt-10 bg-gradient-to-t dark:from-zinc-700 from-red-100 px-10 sm:mt-24'>
+        <footer className='mt-20 bg-gradient-to-t dark:from-zinc-700 from-red-100 px-10 sm:mt-28'>
         <div className='container mx-auto max-w-7xl py-10 xl:py-28'>
           <div className='flex flex-col justify-between space-y-6 sm:flex-row sm:space-y-0'>
             <div className='flex w-full justify-start sm:w-1/4 sm:text-left'>
