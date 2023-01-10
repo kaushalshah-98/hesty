@@ -72,6 +72,7 @@
         "caughtErrorsIgnorePattern": "^_"
       }
     ],
+    "@typescript-eslint/ban-types": 0,
     "jsx-a11y/role-has-required-aria-props": 0,
     "react/no-array-index-key": "off",
     "@typescript-eslint/no-floating-promises": "off",

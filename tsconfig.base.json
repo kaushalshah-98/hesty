@@ -28,7 +28,11 @@
     "allowSyntheticDefaultImports": true,
     "checkJs": true,
     "paths": {
+      "~/sections": ["./src/sections/index"],
+      "~/config": ["./src/config/index"],
       "~/styles": ["./styles/index.css"],
+      "~/components": ["./src/components/index"],
+      "~/layout": ["./src/layout/index"],
     },
     "incremental": true
   },
