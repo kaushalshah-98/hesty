@@ -5,7 +5,11 @@ import { ROUTES } from '~/config';
 
 export const Services = ({ index }: { index: 'left' | 'right' }) => {
   return (
-    <section className='my-32 md:mt-44 lg:mt-64 lg:mb-44 2xl:my-64'>
+    <section
+      className={clsx('my-32 md:mt-44 lg:mt-64 lg:mb-44 2xl:my-64', {
+        'hidden sm:block': index === 'left',
+      })}
+    >
       <div className='container mx-auto max-w-7xl px-10'>
         <div
           className={clsx('flex flex-col-reverse items-end space-x-8 md:items-center', {
