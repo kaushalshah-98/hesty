@@ -7,13 +7,13 @@ export const Detail = () => {
           <div className='flex flex-col items-center justify-between space-y-20 sm:space-y-0 md:flex-row'>
             <div className='2xl:[w-40%] mt-20 flex flex-col space-y-4 sm:mt-28 md:mt-6 md:w-[60%] lg:w-[50%]'>
               <img alt='scribble' className='h-auto w-20' src='/scribble.svg' />
-              <span className='text-5xl font-bold text-gray-900 md:text-3xl lg:text-4xl'>
+              <span className='text-5xl font-bold md:text-3xl lg:text-4xl'>
                 Lorem ipsum
               </span>
               <span className='text-2xl font-bold text-redd md:text-2xl lg:text-2xl'>
                 Lorem ipsum dolor sit amet
               </span>
-              <span className='text-[13px] font-light text-gray-800'>
+              <span className='text-[13px] font-light '>
                 It is a long established fact that a reader will be distracted by the readable
                 content of a page when looking at its layout. The point of using Lorem Ipsum is that
                 it has a more-or-less normal distribution of letters, as opposed to using 'Content
@@ -23,7 +23,7 @@ export const Detail = () => {
                 versions have evolved over the years, sometimes by accident, sometimes on purpose
                 (injected humour and the like).
               </span>
-              <span className='text-[13px] font-light text-gray-800'>
+              <span className='text-[13px] font-light '>
                 There are many variations of passages of Lorem Ipsum available, but the majority
                 have suffered alteration in some form, by injected humour, or randomised words which
                 don't look even slightly believable. If you are going to use a passage of Lorem
@@ -35,7 +35,7 @@ export const Detail = () => {
                 Ipsum is therefore always free from repetition, injected humour, or
                 non-characteristic words etc.
               </span>
-              <span className='text-[13px] font-light text-gray-800'>
+              <span className='text-[13px] font-light '>
                 There are many variations of passages of Lorem Ipsum available, but the majority
                 have suffered alteration in some form, by injected humour, or randomised words which
                 don't look even slightly believable. If you are going to use a passage of Lorem

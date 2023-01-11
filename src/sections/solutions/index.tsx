@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Heading, SubHeading } from '~/components';
+import { Button, Heading, SubHeading } from '~/components';
 import { ROUTES } from '~/config';
 
 const images = [
@@ -32,9 +32,7 @@ export const Solutions = () => {
               need to be sure there isnt anything embarrassing hidden in the middle of text..
             </span>
             <Link href={ROUTES.PAGE2}>
-              <button className='max-w-fit rounded-md bg-redd py-2 px-4 text-lg text-white'>
-                View Availability
-              </button>
+              <Button className='my-8'>View Availability</Button>
             </Link>
           </div>
 

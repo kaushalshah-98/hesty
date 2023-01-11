@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useCallback, useState } from 'react';
+import { Button } from '~/components';
 import { Layout } from '~/layout';
 import { Detail } from '~/sections';
 
@@ -27,13 +28,9 @@ const Landing = () => {
         <div className='container mx-auto max-w-7xl'>
           <div className='flex flex-row justify-around md:justify-start md:space-x-6 md:pl-10'>
             {[...(Array(3) as number[])].map((_, idx) => (
-              <button
-                key={idx}
-                className='rounded-2xl bg-redd py-1 px-6 text-white md:px-12'
-                onClick={onChange(idx)}
-              >
+              <Button key={idx} className='rounded-2xl py-1 px-6 md:px-12' onClick={onChange(idx)}>
                 Details {idx + 1}
-              </button>
+              </Button>
             ))}
           </div>
           <div className='pt-6'>{contents[tab]}</div>

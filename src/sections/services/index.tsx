@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import Link from 'next/link';
-import { CylinderImage, Heading, SubHeading } from '~/components';
+import { Button, CylinderImage, Heading, SubHeading } from '~/components';
 import { ROUTES } from '~/config';
 
 export const Services = ({ index }: { index: 'left' | 'right' }) => {
@@ -26,7 +26,7 @@ export const Services = ({ index }: { index: 'left' | 'right' }) => {
             >
               <CylinderImage
                 className='h-auto w-[80%] justify-end rounded-t-full md:w-[70%]'
-                image='/image10.jpg'
+                src='/image10.jpg'
               />
 
               <div
@@ -51,9 +51,7 @@ export const Services = ({ index }: { index: 'left' | 'right' }) => {
               need to be sure there isnt anything embarrassing hidden in the middle of text..
             </span>
             <Link href={ROUTES.PAGE2}>
-              <button className='max-w-fit rounded-md bg-redd py-2 px-4 text-lg text-white'>
-                View Availability
-              </button>
+              <Button className='my-8'>View Availability</Button>
             </Link>
           </div>
         </div>
