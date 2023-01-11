@@ -3,4 +3,4 @@ export const ROUTES = {
   PAGE2: '/page2',
 };
 
-export const showBreakpoint = true;
+export const showBreakpoint = false;
